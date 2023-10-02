@@ -1,0 +1,36 @@
+from tkinter import *
+from time import strftime, localtime
+
+root = Tk()
+root.title("Kaniz's Digital Clock")
+
+# Make the window resizable and set a minimum window size
+root.resizable(True, True)
+root.minsize(300, 100)
+
+
+def time_update():
+    current_time = localtime()
+    time_string = strftime('%H:%M:%S %p', current_time)
+    date_string = strftime('%A, %B %d, %Y', current_time)
+
+    time_label.config(text=time_string)
+    date_label.config(text=date_string)
+    root.after(1000, time_update)
+
+
+# Use a modern font, add padding and use a frame to contain the labels
+frame = Frame(root, background="black", padx=20, pady=20)
+frame.pack(fill=BOTH, expand=YES)
+
+time_label = Label(frame, font=("Arial", 40), background="black", foreground="green")
+time_label.pack()
+
+date_label = Label(frame, font=("Arial", 20), background="black", foreground="white")
+date_label.pack()
+
+# Initialize the time update
+time_update()
+
+# Start the Tkinter main loop
+root.mainloop()
