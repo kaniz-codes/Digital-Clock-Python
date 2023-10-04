@@ -38,5 +38,13 @@ the digital clock displays not only the time but also the current date, which ma
 - A frame is created to contain the labels (𝒕𝒊𝒎𝒆_𝒍𝒂𝒃𝒆𝒍 𝒂𝒏𝒅 𝒅𝒂𝒕𝒆_𝒍𝒂𝒃𝒆𝒍).
 - The frame has a black background with padding (𝒑𝒂𝒅𝒙 and 𝒑𝒂𝒅𝒚) to provide some spacing around the labels.
 
+6️⃣ 𝐂𝐫𝐞𝐚𝐭𝐢𝐧𝐠 𝐋𝐚𝐛𝐞𝐥𝐬 𝐟𝐨𝐫 𝐓𝐢𝐦𝐞 𝐚𝐧𝐝 𝐃𝐚𝐭𝐞:
+
+![codeimage-snippet_4 (6)](https://github.com/kaniz-codes/Digital-Clock-Python/assets/138873297/318ec0bb-dafd-4f17-b279-83fd7415a069)
+
+- Two labels are created: 𝒕𝒊𝒎𝒆_𝒍𝒂𝒃𝒆𝒍 for displaying the time and 𝒅𝒂𝒕𝒆_𝒍𝒂𝒃𝒆l for displaying the date.
+- These labels are given specific fonts, background colors, and foreground (text) colors.
+- They are added to the frame using 𝒑𝒂𝒄𝒌().
+
 🐍 𝐏𝐲𝐭𝐡𝐨𝐧 𝐂𝐨𝐝𝐞:
 ![codeimage-snippet_4](https://github.com/kaniz-codes/Digital-Clock-Python/assets/138873297/e020a8ea-e6d8-42f7-ab3d-ecb1f84a430d)
