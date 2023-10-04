@@ -46,5 +46,12 @@ the digital clock displays not only the time but also the current date, which ma
 - These labels are given specific fonts, background colors, and foreground (text) colors.
 - They are added to the frame using 𝒑𝒂𝒄𝒌().
 
+7️⃣ 𝐈𝐧𝐢𝐭𝐢𝐚𝐥𝐢𝐳𝐢𝐧𝐠 𝐭𝐡𝐞 𝐓𝐢𝐦𝐞 𝐔𝐩𝐝𝐚𝐭𝐞:
+
+![codeimage-snippet_4 (7)](https://github.com/kaniz-codes/Digital-Clock-Python/assets/138873297/56c2efd0-e37a-42ad-990c-27608d2f3966)
+
+- The 𝒕𝒊𝒎𝒆_𝒖𝒑𝒅𝒂𝒕𝒆 function is called initially to start updating the time and date.
+- Finally, the main loop of the Tkinter application is started using 𝒓𝒐𝒐𝒕.𝒎𝒂𝒊𝒏𝒍𝒐𝒐𝒑(). This loop keeps the GUI application running and responsive to user interactions.
+
 🐍 𝐏𝐲𝐭𝐡𝐨𝐧 𝐂𝐨𝐝𝐞:
 ![codeimage-snippet_4](https://github.com/kaniz-codes/Digital-Clock-Python/assets/138873297/e020a8ea-e6d8-42f7-ab3d-ecb1f84a430d)
